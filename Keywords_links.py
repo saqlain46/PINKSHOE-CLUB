@@ -11,7 +11,7 @@ except ImportError:
     print("No module named 'google' found") 
   
 # to search 
-query = "Business_Women" #[can use put different key words instead of Business Women]
+query = "Business_Women" #[can use different key words instead of Business Women]
 url=[]
 for j in search(query, tld="co.uk", num=10, stop=1, pause=2): 
     url.append(j)
